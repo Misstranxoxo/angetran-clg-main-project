@@ -1,0 +1,87 @@
+    body {
+        background-color: white;
+        margin: 50;
+    }
+
+    h1 {
+        color: #c9184a;
+        font-family: 'Roboto Slab', serif;
+        font-size: 35px;
+    }
+
+    h2 {
+        color: green;
+        font-family: 'Roboto Slab', serif;
+        font-size: 28px;
+    }
+
+    h3 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        color: #0582ca;
+    }
+
+    p {
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+        color: black;
+    }
+
+    li {
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+    }
+
+    ul {
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+    }
+
+    #main {
+        background-color: white;
+
+    }
+
+    #sidebar {
+        background-color: rgb(240, 197, 204);
+        border: 2px solid black;
+        padding: 0 10px;
+
+
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content {
+        border: 2px color black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+
+    }
+
+    . section-blog {
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    article {
+        background-color: whitesmoke;
+        border: 2px color solid black;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nav-bar {
+        display: flex;
+    }
