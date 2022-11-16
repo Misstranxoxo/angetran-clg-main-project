@@ -5,53 +5,123 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/styles.css" />
-  <title> CLG Lesson 5-6 Semantics</title>
+  <title> CLG Ange's world</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;500&display=swap" rel="stylesheet">
 </head>
 
+<img src="./Images/Anges-world- Banner.png" alt="Anges-world-banner" class="Anges-world-banner" />
+<p id="static-btn">Hey Good Looking!</p>
+
 <body>
 
-  <section id="main">
-    <h1> HTML5 Semantics</h1>
-  </section>
-  <div class="nav-bar">
-    <section id="sidebar">
-      <h2> Explore this website</h2>
-      <nav>
-        <ul>
-          <li><a href="../clg-html-css-foundation-web-dev/Index.html">Lessson 1-2 HTML, CSS, Links, Colurs, Fonts</a>
-          </li>
-          <li><a href="../clg-html-css-foundation-web-dev/contactus.html">Lessson 3 - Lists, Tables & Images</a></li>
-          <li><a href="../clg-divs-spans-ids-classes/Index.html">Lesson 4 : DIVS, SPANS, IDS & CLASSES</a></li>
-        </ul>
-      </nav>
-      </header>
-    </section>
-
-    <section id="content">
-
-      <section class="section-blog">
-        <h2>My Blog</h2>
-
-        <article>
-          <h3>Blog Pages</h3>
-          <p> Ramblings of a self confessed K drama addict</p>
-        </article>
-
-        <article>
-          <h3> Hello Kitty Fan Club</h3>
-          <p> All unite for the love of everything Hello Kitty</p>
-        </article>
-
-        <article>
-          <h3>Why Cat's are the best companions</h3>
-          <p> Cats are misunderstood creatures.<br>
-            To really understand them you need to first learn about their unique personalities
-          </p>
-        </article>
-
-      </section>
-    </section>
+  <div class="header">
+    <h1>Welcome to my world!</h1>
+    <p>Be kind to yourself. Love who you are. You are beautiful.</p>
   </div>
-  <footer> &copy Ange Tran 2022</footer>
+
+  <div class="topnav">
+    <a href="#">Home</a>
+    <a href="#">A-Z Melbourne Food Tour</a>
+    <a href="#">K-DRAMA</a>
+    <a href="#" style="float:left">Study Guide<a>
+
+  </div>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>A-Z MELBOURNE FOOD TOUR</h2>
+        <h3>World Food tour in Melbourne</h3>
+        <div class="contentimg" style="height:350px;"><Img src="./Images/FoodBanner.png" width="100%" </Img>
+        </div>
+        <h4>When food is life and you love to eat!</h4>
+        <p>Follow my friends and me as we go through the <strong>alphabet </strong> each month, pick a country and find
+          a resturant in Melbourne to dine at.</p>
+        <p>Below is the list of countries we have done to date:</p>
+        <ul class="list-1">
+          <li> A = Amenia - </li>
+          <li> B = Brazil - </li>
+          <li> C = Columbia- </li>
+          <li> D = Denmark- </li>
+          <li> E = Ethiopia - </li>
+          <li> F = France- </li>
+          <li> G = Greece - </li>
+          <li> H = Hong Kong - </li>
+          <li> I = Indonesia - </li>
+          <li> J = Japan - </li>
+          <li> K = Korean (South) - </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>K-DRAMA LAND</h2>
+        <h3>14 November 2022, What I am watching...</h3>
+        <div class="contentimg" style="height:300px;"><Img src="./Images/poster-drama-love-in-contract.png" width="100%"
+            </Img>
+        </div>
+        <h4>Current K Drama -Love in Contract</h4>
+        <p>At last, our contractual tale comes to an end this week - but not without the usual last minute tropes.
+          They're accompanied by laughter and a few sprinkles of tears, as each of our characters come to a resolution
+          of their arcs and plot their way to happily ever after..</p>
+      </div>
+
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>About Me</h2>
+        <div class="contentimg" style="height:150px;"><Img src="./Images/Ange-selfie.jpg" </img>
+        </div>
+
+        <p>I love Hello Kitty, Food, K-Pop and Kdrama</p>
+      </div>
+      <div class="card">
+        <h3>Popular Post</h3>
+        <div class="contentimg">
+          <p>TBC</p>
+        </div>
+        <div class="contentimg">
+          <p>TBC</p>
+        </div>
+        <div TBC="contentimg">
+          <p>Image</p>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Follow Me</h3>
+        <p>@misstranxoxo</p>
+      </div>
+      <div class="card">
+        <h2>Subcribe to my website</h2>
+        <form>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="Jane"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe"><br>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email" value="Jane.Doe@me.com"><br>
+          <label for="findme">How did you find my page:</label>
+          <br>
+          <select id="findme" name="findme">
+            <option value="CLG Course">Code Like a Girl Course</option>
+            <option value="Google">Google</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Other">Other</option>
+          </select><br><br>
+          <label for="message">Message:</label><br>
+          <textarea name="message" rows="10" cols="22">I love food and cats!
+            </textarea><br>
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h4> &copy; Ange Tran - November 2022</h4>
+  </div>
+
 </body>
+
+</html>
