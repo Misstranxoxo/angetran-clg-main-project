@@ -1,87 +1,139 @@
+       * {
+        box-sizing: border-box;
+    }
+
     body {
-        background-color: white;
-        margin: 50;
+        font-family: 'Roboto Slab', serif;
+        padding: 10px;
+        background: #f1f1f1;
     }
 
-    h1 {
-        color: #c9184a;
-        font-family: 'Roboto Slab', serif;
-        font-size: 35px;
+    .Anges-world-banner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        height: auto;
     }
 
-    h2 {
-        color: green;
-        font-family: 'Roboto Slab', serif;
-        font-size: 28px;
+    div h2 {
+        color: #b84c65;
     }
 
-    h3 {
-        font-family: 'Roboto Slab', serif;
-        font-size: 20px;
-        color: #0582ca;
-    }
-
-    p {
-        font-family: 'Roboto Slab', serif;
+    /* Header/Blog Title */
+    .header {
+        padding: 30px;
+        text-align: center;
+        background: #f1ebec;
         font-size: 18px;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .header h1 {
+        font-size: 50px;
+        font-family: 'Roboto Slab', serif;
+        color: #b84c65;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+        overflow: hidden;
+        background-color: #B5838D;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+        background-color: #ddd;
         color: black;
     }
 
-    li {
-        font-family: 'Roboto Slab', serif;
-        font-size: 18px;
+
+    #static-btn {
+        background-color: #c9184a;
+        color: white;
+        border: dashed red;
+        font-size: 30px;
+        position: fixed;
+        top: 20px;
+        right: 25px;
     }
 
-    ul {
-        font-family: 'Roboto Slab', serif;
-        font-size: 18px;
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {
+        float: left;
+        width: 75%;
     }
 
-    #main {
+    /* Right column */
+    .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+    }
+
+    /* Content images */
+    .contentimg {
+        background-color: whitesmoke display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+
+    }
+
+    /* Add a card effect for articles */
+    .card {
         background-color: white;
-
+        padding: 5px;
+        margin-top: 5px;
     }
 
-    #sidebar {
-        background-color: rgb(240, 197, 204);
-        border: 2px solid black;
-        padding: 0 10px;
-
-
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
     }
 
-    nav ul {
-        list-style-type: none;
-        padding: 2px;
-        display: flex;
-        flex-direction: column;
+    .list-1 {
+        list-style-type: circle;
     }
 
-    #content {
-        border: 2px color black;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-
-
+    /* Footer */
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background: #B5838D;
+        color: white;
+        margin-top: 20px;
     }
 
-    . section-blog {
-        border: 2px solid black;
-        display: flex;
-        flex-wrap: wrap;
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 50em {
 
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
 
-    }
-
-    article {
-        background-color: whitesmoke;
-        border: 2px color solid black;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .nav-bar {
-        display: flex;
-    }
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 10em) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
