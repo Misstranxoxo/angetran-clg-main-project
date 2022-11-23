@@ -10,23 +10,28 @@
 </head>
 
 <img src="./Images/Anges-world- Banner.png" alt="Anges-world-banner" class="Anges-world-banner" />
-<p id="static-btn">Hey Good Looking!</p>
+
+<p id="static-btn">Hey There!</p>
+<img class="sticky" src="./Images/girls-who-code.png" alt="CLGlogo">
 
 <body>
-
   <div class="header">
-    <h1>Welcome to my world!</h1>
-    <p>Be kind to yourself. Love who you are. You are beautiful.</p>
+    <h1>Be kind to yourself. Love who you are. You are beautiful.</h1>
+    <p> Happiness is a mood, positivity is a mindset</p>
+    <button onclick="this.innerHTML=Date()">Click here to display the time</button>
   </div>
 
   <div class="topnav">
-    <a href="#">Home</a>
+    <a href=".//css/">Home</a>
     <a href="#">A-Z Melbourne Food Tour</a>
     <a href="#">K-DRAMA</a>
-    <a href="#" style="float:left">Study Guide<a>
-
-  </div>
-  </div>
+    <div class="dropdown">
+      <button class="dropbtn">Code Like a Girl Study Guide
+        <div class="dropdown-content">
+          <a href="https://incandescent-griffin-f22a1b.netlify.app">Foundations of web dev</a>
+          <a href="https://startling-dolphin-5d7ba0.netlify.app">Divs, Spans, Classes</a>
+        </div>
+    </div>
   </div>
 
   <div class="row">
@@ -39,20 +44,6 @@
         <h4>When food is life and you love to eat!</h4>
         <p>Follow my friends and me as we go through the <strong>alphabet </strong> each month, pick a country and find
           a resturant in Melbourne to dine at.</p>
-        <p>Below is the list of countries we have done to date:</p>
-        <ul class="list-1">
-          <li> A = Amenia - </li>
-          <li> B = Brazil - </li>
-          <li> C = Columbia- </li>
-          <li> D = Denmark- </li>
-          <li> E = Ethiopia - </li>
-          <li> F = France- </li>
-          <li> G = Greece - </li>
-          <li> H = Hong Kong - </li>
-          <li> I = Indonesia - </li>
-          <li> J = Japan - </li>
-          <li> K = Korean (South) - </li>
-        </ul>
       </div>
 
       <div class="card">
@@ -61,7 +52,7 @@
         <div class="contentimg" style="height:300px;"><Img src="./Images/poster-drama-love-in-contract.png" width="100%"
             </Img>
         </div>
-        <h4>Current K Drama -Love in Contract</h4>
+        <h4>Current K Drama -Love in Contract Recap</h4>
         <p>At last, our contractual tale comes to an end this week - but not without the usual last minute tropes.
           They're accompanied by laughter and a few sprinkles of tears, as each of our characters come to a resolution
           of their arcs and plot their way to happily ever after..</p>
@@ -76,52 +67,63 @@
 
         <p>I love Hello Kitty, Food, K-Pop and Kdrama</p>
       </div>
+
       <div class="card">
-        <h3>Popular Post</h3>
-        <div class="contentimg">
-          <p>TBC</p>
-        </div>
-        <div class="contentimg">
-          <p>TBC</p>
-        </div>
-        <div TBC="contentimg">
-          <p>Image</p>
-        </div>
+        <h3>Follow me on Instagram</h3>
+        <p> Instagram handle <a href="https://www.instagram.com/misstranxoxo/" target="_blank">@misstranxoxo</a>
+        </p>
+
+        <video width="400" controls autoplay loop>
+          <source src="./Images/Melbourne world food tour.mp4" type="video/mp4">
+          <source src="./Images/Melbourne world food tour.ogg type=" video/ogg">
+          Your browser does not support HTML video.
+        </video>
       </div>
-      <div class="card">
-        <h3>Follow Me</h3>
-        <p>@misstranxoxo</p>
-      </div>
-      <div class="card">
+      <div class="card-subscribe">
         <h2>Subcribe to my website</h2>
-        <form>
-          <label for="fname">First name:</label><br>
-          <input type="text" id="fname" name="fname" value="Jane"><br>
-          <label for="lname">Last name:</label><br>
-          <input type="text" id="lname" name="lname" value="Doe"><br>
+        <form action="https://www.formbackend.com/f/04bff6d93e373a52" method="POST">
+          <label for="fname">Full Name:</label><br>
+          <input type="text" id="Fullname" name="Fullname" placeholder="Your full name*" required><br>
           <label for="email">Email:</label><br>
-          <input type="text" id="email" name="email" value="Jane.Doe@me.com"><br>
+          <input type="text" id="email" name="email" placeholder="Your email address*" required><br>
+          <label> Password:<br>
+            <input type="password" name="password" placeholder="Create a password*" optional></label><br>
           <label for="findme">How did you find my page:</label>
           <br>
           <select id="findme" name="findme">
+            <option value="Blank"> Please select...</option>
             <option value="CLG Course">Code Like a Girl Course</option>
             <option value="Google">Google</option>
             <option value="Instagram">Instagram</option>
             <option value="Other">Other</option>
           </select><br><br>
           <label for="message">Message:</label><br>
-          <textarea name="message" rows="10" cols="22">I love food and cats!
+          <textarea name="message" rows="10" cols="22">Leave me a message
             </textarea><br>
           <input type="submit" value="Subscribe">
         </form>
       </div>
     </div>
+
   </div>
+
 
   <div class="footer">
     <h4> &copy; Ange Tran - November 2022</h4>
   </div>
 
+
+  <script>
+    alert('Welcome to my world');
+
+  </script>
+
+  <script>
+    /*consloe.log('this is a test console log test message') 
+    For debugging purposes, you can call the console.log() method in the browser to display data.;*/
+    console.log('for debugging testing purposes');
+  </script>
+  <button onclick="window.print()">Print this page</button>
 </body>
 
 </html>
