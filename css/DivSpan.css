@@ -1,0 +1,97 @@
+body{ 
+    background-color: white;
+    margin: 50;
+}
+
+html{
+    font-family:'Roboto Slab', serif; 
+}
+
+div h1{color:#c9184a; 
+    font-size: 35px; 
+    font-weight: bold;
+    margin: 0;
+}
+
+div h2{ color: green; 
+    font-size: 28px;
+    font-weight: normal;
+    margin: 0;
+}
+
+div h3{ 
+    font-size: 20px; 
+    font-weight: normal; 
+    color: #0582ca;
+    margin: 0;
+    
+}
+
+div p{
+    font-size: 16px;
+    font-weight: normal; 
+    color: black;
+    margin: 2;
+    
+}
+
+li{ 
+    font-size: 18px;
+}
+    
+ul{
+    list-style-type: circle;
+    font-size: 18px;
+}
+
+img{
+    background-position: center center;
+}
+
+ #section-1 {
+     background-color: whitesmoke
+     padding: 15px
+               
+ }
+
+#section-2 {
+    background: rgb(243, 216, 232)
+    url("https://cdn.pixabay.com/photo/2013/04/03/21/25/flower-100263_960_720.jpg")
+      no-repeat
+} 
+       
+#section-3 {
+    background-color: #9dc3c7;
+   }
+
+p span{
+    color: cornflowerblue;
+    background-color: whitesmoke;
+}
+
+ul li{
+    color: #c9184a;
+}
+ 
+#special-paragraph {
+    position: relative;
+    top: 5px;
+    background-color: rgb(192, 247, 247);
+}
+
+ #static-btn{
+    background-color: #c9184a;
+    color: white;
+    border: dashed red;
+    font-size: 30px;
+    position: fixed;
+    top: 20px;
+    right: 25px; 
+   
+ }
+
+ a {
+    font-size: 20px; 
+    border: solid blue;
+    padding: 5px;
+ }
