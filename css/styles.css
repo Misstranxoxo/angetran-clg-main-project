@@ -142,7 +142,7 @@
 
     /* Content images */
     .contentimg {
-        background-color: whitesmoke display: block;
+        background-color: whitesmoke display block;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
@@ -212,19 +212,20 @@
 
 
     /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 50em {
+    @media screen and (max-width: 50em) {
 
-            .leftcolumn,
-            .rightcolumn {
-                width: 100%;
-                padding: 0;
-            }
+        .leftcolumn,
+        .rightcolumn {
+            width: 100%;
+            padding: 0;
         }
+    }
 
-        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-        @media screen and (max-width: 10em) {
-            .topnav a {
-                float: none;
-                width: 100%;
-            }
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 10em) {
+        .topnav a {
+            float: none;
+            width: 100%;
         }
+    }
