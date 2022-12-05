@@ -5,7 +5,7 @@
     body {
         font-family: 'Roboto Slab', serif;
         padding: 10px;
-        background: #f1f1f1;
+        background: white;
     }
 
     .Anges-world-banner {
@@ -22,15 +22,15 @@
 
     /* Header/Blog Title */
     .header {
-        padding: 30px;
+        padding: 20px;
         text-align: center;
-        background: #f1ebec;
+        background: white;
         font-size: 18px;
         font-family: 'Roboto Slab', serif;
     }
 
     .header h1 {
-        font-size: 45px;
+        font-size: 35px;
         font-family: 'Roboto Slab', serif;
         color: #b84c65;
     }
@@ -134,17 +134,18 @@
 
     /* Right column */
     .rightcolumn {
+        background-color: #f1f1f1;
         float: left;
         width: 25%;
-        background-color: #f1f1f1;
-        padding-left: 20px;
+        padding: 10px;
+        margin-top: 10px;
+        text-align: center;
+       
     }
 
     /* Content images */
     .contentimg {
         background-color: whitesmoke display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 100%;
         height: auto;
     }
@@ -179,8 +180,9 @@
 
     .card-subscribe {
         background-color: #f3d1d8;
-        padding: 5px;
-        margin-top: 5px;
+        padding: 10px;
+        margin-top: 10px;
+        text-align: center;
     }
 
     .button {
@@ -221,8 +223,8 @@
             }
         }
 
-        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-        @media screen and (max-width: 10em) {
+        /* Responsive layout - when the screen is less than 200px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 20em) {
             .topnav a {
                 float: none;
                 width: 100%;
