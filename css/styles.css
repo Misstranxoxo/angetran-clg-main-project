@@ -107,13 +107,6 @@
         display: block;
     }
 
-    img.sticky {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 20px;
-        right: 25px;
-        width: 300px;
-    }
 
     #static-btn {
         background-color: #c9184a;
@@ -154,8 +147,8 @@
     /* Add a card effect for articles */
     .card {
         background-color: white;
-        padding: 10px;
-        margin-top: 10px;
+        padding: 0 20px
+        margin-top: 15px;
     }
 
     /* Clear floats after the columns */
@@ -186,7 +179,7 @@
     }
 
     .button {
-        padding: 10px 25px;
+        padding: 10px 15px;
         font-size: 15px;
         text-align: center;
         cursor: pointer;
